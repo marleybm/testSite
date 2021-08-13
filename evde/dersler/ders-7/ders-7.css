@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* .box {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.list {
+    list-style-type: none;
+  
+}
+
+.list li {
+    display: inline-block;
+}
+
+
+.link {
+    margin: 15px;
+    display: inline-block;
+} */
+
+/* .big-box{
+    height: 100px;
+    width: 100px;
+    box-shadow: 3px 3px 2px 2px green;
+    
+} */
+
+.header {
+    height: 80px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 0px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* justify-content: space-around; */
+   
+}
+
+
+
+.logo img {
+    width: 80px;
+    height: 80px;
+}
+
+.list{
+    display: flex;
+   
+}
+
+
+.list li {
+    padding: 0px 10px;
+}
+
+
+#hero-img{
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-around; */
+    /* justify-content: space-between; */
+    /* justify-content: space-evenly; */
+    /* padding: 0px 15px;
+    align-items: flex-end; */
+    /* align-items: flex-start;
+    align-items: center; */
+    /* 
+    justify-content: flex-end; */
+    /* justify-content: center; */
+    /* align-items: flex-end; */
+    /* align-items: flex-start; */
+    /* align-items: center; */
+    /* border-bottom: 1px solid black; */
+    /* justify-content: space-around;
+     */
+    flex-wrap: wrap;
+    /* align-items: center; */
+    /* flex-direction: column; */
+    /* flex-direction: row; */
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.card{
+    width: 200px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 15px 0px;
+}
+
+.card-img{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.card-header {
+    display: flex;
+    justify-content: center;
+}
+
+.card-img img {
+    width: 80px;
+    height: 80px;
+}

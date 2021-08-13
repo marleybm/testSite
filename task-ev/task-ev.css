@@ -1,0 +1,16 @@
+@font-face {
+    font-family: bold;
+    src: url(/task-ev/Gready_PERSONAL_USE_ONLY-Bold.otf);
+}
+.basliq{
+      
+    color: red;
+    font-family: bold;
+}
+.box{
+    width: 200px;
+    height: 100px;
+    background: gray;
+    color: rgba(red, green, blue, 0.6);
+    font-family: bold;
+}

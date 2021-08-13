@@ -1,0 +1,816 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+ }
+
+
+@media only screen and (max-width: 768px) {
+    .header{
+        flex-direction: column;
+    }
+    header ul{
+        flex-direction: column;
+    }
+    
+}
+
+
+
+
+
+ .header{
+     width:100%;
+     height: 100px;
+     background-color: #11343a;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+ header ul{
+    
+     display: flex;
+     color: white;
+     justify-content: space-between;
+     list-style-type: none;
+     align-items: center;
+    
+    
+ }
+header ul li a{
+    color: white;
+    padding: 10px;
+}
+
+.qutu{
+    height: 290px;
+    width: 100%;
+    background-color: #24444b;
+}
+.qutu1{
+    width:100%;
+     height: 300px;
+     background-color: #11343a;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.qutu2{
+    width: 550px;
+    height: 140px;
+    color: white;
+    font-size: x-large;
+   
+}
+.qutu3{
+    width: 260px;
+    height: 20px;
+    background-color: yellow;
+    text-align: center;
+    padding: 20px 5px 35px 5px;
+    color: black;
+    margin: 10px 40px 10px 120px
+}
+.qutu4{
+    height: 290px;
+    width: 100%;
+    background-color: #24444b; 
+}
+.hisse{
+    padding: 50px 0;
+    width: 100%;
+   
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    
+}
+        
+ h3{
+     text-align: center;
+     color: gray;
+ }   
+
+ .head{
+display: flex;
+/* justify-content: center;
+align-items: flex-start; */
+flex-direction: column;
+background-color: white;
+ }
+
+
+
+#mehemmed h1{
+    font-weight:10000;
+}
+.yazi{
+    text-align: center;
+    color: gray;
+    padding: 0px 20px;
+    font-weight: 500;
+}
+.qab{
+    width: 100%;
+    
+    padding: 0 90px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    
+    justify-content: space-around;
+}
+
+.qab1{
+    width: 150px;
+    height: 400px;
+    
+}
+.qab12{
+    width: 140px;
+    height: 140px;
+    background: yellow;
+    border-radius: 50%;
+    padding: 3%;
+}
+.web{
+    text-align: center;
+    font-weight: 1000;
+   margin-top: 10px;
+}
+.donec{
+    margin-top: 10px;
+    text-align: center;
+    color: gray;
+}
+.qab2{
+    width: 150px;
+    height: 400px; 
+}
+.qab22{
+    width: 140px;
+    height: 140px;
+    background: yellow;
+    border-radius: 50%;
+    padding: 3%; 
+}
+.qab3{
+    width: 150px;
+    height: 400px;
+}
+.qab33{
+    width: 140px;
+    height: 140px;
+    background: yellow;
+    border-radius: 50%;
+    padding: 3%; 
+}
+.qab4{
+    width: 150px;
+    height: 400px;
+}
+.qab44{
+    width: 140px;
+    height: 140px;
+    background: yellow;
+    border-radius: 50%;
+    padding: 3%; 
+}
+.hisse2{
+    background-color: yellow;
+    width: 200px;
+    height: 5px;
+    margin: 20px auto 20px auto;
+    
+}
+
+.back{
+    width: 100%;
+   
+    background-color: #131a1d;
+    
+    
+}
+.back1{
+    text-align: center;
+    color: yellow;
+    margin: 40px auto 40px auto;
+}
+.back2{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+.back3{
+    padding: 0 90px;
+    width: 100%;
+    height: 250px;
+    background-color: #131a1d;
+    display: flex;
+    justify-content: space-around;
+}
+.back11{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    background-color: #131a1d;
+}
+.analyse{
+    color: yellow;
+    margin-top: 10px;
+}
+.vivamus{
+    margin-top: 10px;
+    color: white;
+}
+.back12{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    background-color: #131a1d;
+}
+.back13{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    background-color: #131a1d;
+}
+.back14{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    background-color: #131a1d;  
+}
+.back15{
+    margin-top: 40px;
+    width: 200px;
+    height: 200px;
+    background-color: #131a1d; 
+}
+.branding{
+
+   padding: auto 80px;
+}
+.what{
+    text-align: center;
+    margin-top: 20px;
+}
+.tab{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+.our{
+    text-align: center;
+    margin-top: 30px;
+    color: gray;
+}
+.we{
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.tab1{
+    background-color: yellow;
+    width: 200px;
+    height: 5px;
+    margin: 20px auto;
+}
+.cur{
+    color: gray;
+    text-align: center;
+}
+.tab2{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    margin: 40px auto 20px auto;
+    width: 40%;
+   
+}
+
+.tab2 li a{
+    
+    color: black;
+}
+.tab3{
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.tab4{
+    width: 600px;
+    height: 450px;
+}
+.tab4 img{
+    width: 100%;
+    height: 100%;
+}
+.tab5{
+    width: 600px;
+    height: 350px;
+}
+.our1{
+    color: black;
+    text-align: start;
+    margin-top: 10px;
+}
+.cur1{
+    margin-top: 20px;
+    text-align: left; 
+    color: gray;
+}
+.tab6{
+    background-color: yellow;
+    width: 130px;
+    height: 40px;
+    margin-top: 30px;
+}
+.vitev1{
+    text-align: center;
+    color: white;
+    padding: 4%;
+
+}
+.tab7{
+    width: 100%;
+    margin-top: 120px;
+}
+.tab8{
+    width: 100%;
+    height: 230px;
+    display: flex;
+}
+.tab88{
+    width: 230px;
+    height: 230px;
+    background-color: #cfc20c;
+    padding: 80px 20px 20px 20px;
+}
+.sample1{
+    color: white;
+    text-align: center; 
+}
+.tab9{
+    width: 230px;
+    height: 230px;
+    
+}
+.shek1{
+    width: 100%;
+    height: 100%;
+}
+.tab10{
+    width: 230px;
+    height: 230px;
+}
+.shek2{
+    width: 100%;
+    height: 100%;
+}
+.tab11{
+    width: 230px;
+    height: 230px;
+}
+.shek3{
+    width: 100%;
+    height: 100%;
+}
+.tab12{
+    width: 230px;
+    height: 230px;
+}
+.shek4{
+    width: 100%;
+    height: 100%;
+}
+.tab13{
+    width: 230px;
+    height: 230px;
+}
+.shek5{
+    width: 100%;
+    height: 100%;
+}
+.tab14{
+    width: 100%;
+    height: 230px;
+    display: flex;
+}
+.tab15{
+    width: 230px;
+    height: 230px;
+}
+.shek6{
+    width: 100%;
+    height: 100%;
+}
+.tab16{
+    width: 230px;
+    height: 230px;
+}
+.shek7{
+    width: 100%;
+    height: 100%;
+}
+.tab17{
+    width: 230px;
+    height: 230px;
+}
+.shek8{
+    width: 100%;
+    height: 100%;
+}
+.tab18{
+    width: 230px;
+    height: 230px;
+}
+.shek9{
+    width: 100%;
+    height: 100%;
+}
+.tab19{
+    width: 230px;
+    height: 230px;
+}
+.shek10{
+    width: 100%;
+    height: 100%;
+}
+.tab20{
+    width: 230px;
+    height: 230px;
+}
+.shek11{
+    width: 100%;
+    height: 100%;
+}
+
+.bbb22{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    margin-top: 70px;
+}
+.bb2{
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.bb3{
+    color: gray;
+    text-align: center;
+    margin-top: 40px;
+}
+.bb4{
+    background-color: yellow;
+    width: 170px;
+    height: 40px;
+    margin: 30px auto 10px auto;
+}
+.bb5{
+    color: white;
+    text-align: center;
+    padding: 3%;
+}
+.biz{
+   background-color: #131a1d;
+   width: 100%;
+   height: 400px;
+}
+.web43{
+    width: 100%;
+    background-color: #131a1d;
+    
+}
+
+
+.web22{
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+.web23{
+    color: gray;
+    text-align: center;
+    
+    
+}
+.web1{
+   width: 100%;
+   height: 300px;
+   display: flex;
+   padding: 0 140px;
+   align-items: center;
+   justify-content: space-around;
+}
+.web222{
+    width: 250px;
+    height: 150px;
+    background-color:  #131a1d;
+    border: 3px solid yellow;
+}
+.reqem{
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+}
+.hap{
+    color: yellow;
+    text-align: center;
+}
+.lab1{
+    width: 100%;
+
+}
+
+.lab2{
+    color: gray;
+    text-align: center;
+    margin-top: 60px;
+}
+.lab3{
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+   
+}
+.lab44{
+    width: 180px;
+    height: 5px;
+    background-color: yellow;
+    margin: 20px auto;
+}
+.lab4{
+    color: gray;
+    text-align: center;
+}
+.lab5{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 120px;
+    margin-top: 40px;
+}
+.lab6{
+    width: 550px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 40px;
+    
+}
+.lab66{
+    border-radius: 50%;
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+}
+.lab666{
+    width: 350px;
+    height: 100%;
+}
+.qaz{
+    margin-top: 25px;
+    text-align: start;
+}
+.qaz1{
+    margin-top: 10px;
+    color: rgb(88, 80, 80);
+}
+.qaz3{
+    text-align: center;
+    margin-top: 40px;
+}
+.qaz4{
+    color: gray;
+    text-align: center;
+    margin-top: 20px;
+}
+.bir2{
+    width: 100%;
+    
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 130px;
+}
+.love{
+    width: 250px;
+    height: 400px;
+    
+}
+.love1{
+    width: 250px;
+    height: 300px;
+}
+.love2{
+    color: yellow;
+}
+.love3{
+    color: black;
+}
+.marley{
+    width: 100%;
+    background-color: #131a1d;
+}
+.marley1{
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.marley2{
+    color: white;
+    text-align: center;
+    
+}
+.marley3{
+    width: 100%;
+  
+    margin-top: 70px;
+    background-color: #131a1d;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 90px;
+}
+.marley4{
+    width: 230px;
+    height: 250px;
+}
+.marley5{
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 6px solid yellow;
+}
+.marley6{
+    margin-top: 50px;
+    text-align: center;
+    color: yellow;
+}
+.mari{
+    width: 100%;
+    height: 200px;
+}
+.mari1{
+    text-align: center;
+    margin-top: 40px;
+    color: gray;
+}
+.mari2{
+    text-align: center;
+    margin-top: 20px;
+}
+.mari3{
+    width: 180px;
+    height: 5px;
+    background-color: yellow;
+    margin: 20px auto;
+}
+.mari4{
+    text-align: center;
+    color: gray;
+}
+.mar{
+    width: 100%;
+    height: 300px;
+    background-color: #131a1d;
+}
+.mar1{
+    text-align: center;
+    color: white;
+    padding: 30px;
+}
+.mar2{
+    width: 180px;
+    height: 5px;
+    background-color: yellow;
+    margin: 5px auto; 
+}
+.mar3{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+.tar{
+    width: 100%;
+}
+.tar1{
+    text-align: center;
+    color: gray;
+    margin-top: 50px;
+}
+.tar2{
+    text-align: center;
+    margin-top: 10px;
+}
+.tar3{
+    width: 180px;
+    height: 5px;
+    background-color: yellow;
+    margin: 10px auto; 
+}
+.tar4{
+    text-align: center;
+    color: gray;
+    margin-top: 20px;
+    
+}
+.tar5{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+}
+.tar6{
+    width: 200px;
+    height: 250px;
+}
+.tar7{
+    text-align: center;
+    margin-top: 80px;
+    color: black;
+}
+.tar8{
+    color: gray;
+    text-align: center;
+    margin-top: 20px;
+}
+.zar{
+    width: 100%;
+    background-color: #192024;
+}
+.zar1{
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+.zar2{
+    text-align: center;
+    color: white;
+}
+.zar3{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 80px;
+}
+.zar4{
+    width: 350px;
+    background-color:  #192024;
+    border: 4px solid gray;
+    height: 100px;
+    padding-left: 20px;
+}
+.zar55{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.zar5{
+    width: 1000px;
+    height: 300px;
+    background-color:  #192024;
+    border: 4px solid gray;
+    margin: 20px auto;
+}
+.zar78{
+    background-color: yellow;
+    width: 200px;
+    height: 40px;
+    margin: 20px auto;
+}
+.zar79{
+    color: black;
+    padding: 5px;
+    text-align: center;
+}
+.zar800{
+    width: 100%;
+    background-color: black;
+    height: 250px;
+}
+.zar801{
+    text-align: center;
+    padding: 30px;
+}
+.za802{
+    width: 80px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: yellow;
+}

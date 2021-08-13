@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+ }
+
+ @media only screen and (max-width: 768px) {
+     .box1{
+         width: 600px;
+         height: 200px;
+     }
+     .box1 ul{
+         flex-direction: column;
+     }
+    .rap2{
+        flex-direction: column;
+    }
+    .rap{
+        flex-direction: column;
+    }
+    .top1{
+        flex-direction: column;
+       
+    }
+    .lar1{
+        flex-direction: column;
+    }
+}
+body{
+    overflow-x: hidden;
+}
+.boxes{
+    width: 100%;
+    background-image: url(90-906427_1920x1080-business-man-working-and-writing-in-laptop.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+.boxes::after{
+    z-index: 0;
+
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  
+    height: 100%;
+}
+.box1{
+    z-index: 1;
+    margin-top: 40px;
+    width: 970px;
+    border-radius: 20px;
+    padding: 0 40px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box1 img{
+  width: 130px;
+  height: 80px;
+}
+.box1 ul{
+    display: flex;
+    list-style-type: none;
+}
+.box1 li a{
+    color: black;
+    padding: 5px;
+   font-size: 20px;
+
+}
+
+.box1 li a:hover{
+   color: violet;
+}
+.boxes h1{
+    z-index: 1;
+    margin-top: 300px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 0 400px;
+}
+.boxes h3{
+    color: white;
+    z-index: 1;
+    padding: 0 410px;
+}
+.box2{
+    z-index: 1;
+    width: 170px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(192, 99, 192);
+    margin-top: 50px;
+    display: flex;
+     margin-bottom: 60px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.box2:hover{
+    fill: tomato;
+    background-color: yellow;
+}
+
+.rap{
+    width: 100%;
+    display: flex;
+    background-color: #f8f8f8;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 120px;
+}
+.rap1{
+    margin-top: 30px;
+    width: 350px;
+    height: 300px;
+    background-color: rgb(238, 229, 229);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+    display: flex;
+}
+.rap1 svg{
+    background-color: #8162ee;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.rap1 h2{
+    color: black;
+    margin-top: 20px;
+}
+.rap1 h4{
+    color: gray;
+    text-align: center;
+    margin-top: 20px;
+}
+.rap2{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.rap3{
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+}
+.rap3 h4{
+    color: gray;
+    margin-top: 20px;
+}
+
+.top{
+ 
+    background-image: url(/task-ev4/photo-1578091879915-33ee869e2cd7.jpg);
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.top h1{
+    margin-top: 80px;
+    font-size: 25px;
+    color: white;
+}
+.top h3{
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+    padding: 0 380px;
+}
+.top1{
+    width: 100%;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.top2{
+    width: 190px;
+    height: 200px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top2 svg{
+    width: 40px;
+    height: 40px;
+    fill: #8162ee;
+}
+.top2 h4{
+   text-align: center;
+   color: gray;
+}
+.top2 h3{
+    color: black;
+}
+
+
+.lar{
+    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    
+}
+.lar h1{
+    text-align: center;
+    color: rgb(24, 23, 23);
+    font-size: 40px;
+    margin-top: 40px;
+}
+.larh{
+    /* padding: 0 350px; */
+   width: 450px;
+    text-align: center;
+    color: gray;
+    margin-top: 40px;
+}
+.lar1{
+    width: 100%;
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.lar2{
+    width: 350px;
+    height: 370px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.lar2 svg{
+    width: 45px;
+    height: 45px;
+    fill: indianred;
+    margin-bottom: 20px;
+}
+.lar2 h3{
+    color: gray;
+    display: inline-block;
+    text-align: center;
+}
+
+.lar3{
+    margin-top: 30px;
+    background-color: gray;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.lar33{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}

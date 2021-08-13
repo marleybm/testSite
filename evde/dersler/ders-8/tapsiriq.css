@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style-type: none;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: gray;  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+}
+.basliq{
+ text-align: center;
+}
+
+header ul{
+    display: flex;
+    color: white;
+    
+}
+.header li{
+    padding: 10px;
+}
+.header ul li a{
+    justify-content: space-around;
+    color: white;
+    
+}
+.qutu1{
+    width: 200px;
+    height: 600px;
+    position: absolute;
+    position: fixed;
+    z-index: -1;
+    
+    top: 69px;
+    left: 0px;
+    
+}
+.foto1{
+    width: 100%;
+    height: 100%;
+}
+.qutu2{
+    width: 200px;
+    height: 600px;
+    position: absolute;
+    position: fixed;  
+    top: 69px;
+    right: 0px; 
+    z-index: -1;
+
+}
+.foto2{
+    width: 100%;
+    height: 100%;
+}
+.div1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 130px 0px 0px 0px;
+
+}
+.div img{
+    width:300px;
+    height: 300px;
+    padding: 0px 5px ;
+}

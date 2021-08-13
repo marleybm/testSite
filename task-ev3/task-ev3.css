@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+ }
+
+
+
+ .header1{
+     width: 100%;
+     height: 150px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+ }
+ .header2{
+     display: flex;
+     list-style-type: none;
+ }
+ .header2 li a{
+     font-size: 20px;
+     padding: 20px;
+     color: white;
+ }
+ .header3{
+     margin-left: 25px;
+     width: 300px;
+     height: 100x;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .header3 a{
+     color: white;
+     font-size: 20px;
+     
+ }
+.header4{
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+    
+}
+.header4 h2{
+    margin-top: 240px;
+    margin-left: 160px;
+    color: white;
+    font-size: 40px;
+}
+.header4 h1{
+    margin-top: 10px;
+    font-size: 80px;
+    color: white;
+    margin-left: 160px;
+}
+.container{
+    
+    width: 100%;
+    height: 1000px;
+    background-image: url(/task-ev3/bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: absolute;
+    overflow: hidden; 
+    top: 0; 
+    z-index: -2;
+}
+.container::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    background-color: rgb(17, 15, 15);
+    opacity: 50%;
+}
+.header5{
+    margin-top: 40px;
+    width: 100%;
+    height: 150px;
+  
+}
+.header6{
+   margin-left: 1230px;
+   width: 100px;
+   height: 100px;
+}
+.header6 svg{
+    width: 50px;
+    height: 50px;
+    fill: white;
+}
+.top{
+    width: 100%;
+    background-color: #eaeaea;
+}
+.top h2{
+    text-align: center;
+    padding: 30px;
+    color: gray;
+}
+.top h1{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+
+.top1{
+    margin-top: 10px;
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+   
+}
+.top2{
+   margin-left: 90px;
+   display: flex;
+   width: 250px;
+   height: 100px;
+   justify-content: center;
+   align-items: center;
+}
+.top2 h2{
+    color: black;
+}
+.top3 h2{
+    color: black;
+}
+.top2 svg{
+    fill: black;
+    height: 25px;
+    width: 25px;
+    
+}
+.top3{
+    margin-left: 50px;
+    display: flex;
+   width: 250px;
+   height: 100px;
+   justify-content: center;
+   align-items: center;
+}
+.top3 svg{
+    fill: black;
+    height: 25px;
+    width: 25px;
+    
+}
+.top11{
+    width: 250px;
+    height: 200px; 
+}
+.top12{
+    width: 250px;
+    height: 200px; 
+}
+.top13{
+    margin-left: 90px;
+    display: flex;
+    width: 250px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.top13 svg{
+    fill: black;
+    height: 25px;
+    width: 25px;
+    
+}
+.top13 h2{
+    color: black;
+}
+.top14{
+    margin-left: 90px;
+    display: flex;
+    width: 250px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.top14 svg{
+    fill: black;
+    height: 25px;
+    width: 25px;
+    
+}
+.top14 h2{
+    color: black;
+}
+.top15{
+    width: 250px;
+    height: 200px; 
+}
+.top16{
+    margin-left: 90px;
+    display: flex;
+    width: 250px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.top16 svg{
+    fill: black;
+    height: 25px;
+    width: 25px;
+}
+.top16 h2{
+    color: black;
+}
+.top17{
+    margin-left: 90px;
+    display: flex;
+    width: 250px;
+    height: 100px;
+    justify-content: center;
+    align-items: center; 
+}
+.top17 svg{
+    fill: black;
+    height: 25px;
+    width: 25px;
+}
+.top17 h2{
+  color: black;
+}
+.topp1{
+    background-color: #eaeaea;
+   
+    width: 100%;
+}
+.topp1 h3{
+    text-align: center;
+    color: gray;
+   
+}
+.topp1 h1{
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    margin-top: 20px;
+}
+.topp1 h4{
+    text-align: center;
+    color: gray;
+    margin-top: 45px;
+}
+.topp2{
+    width: 100%;
+    height: 700px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.topp3{
+    background-color: white;
+    width: 300px;
+    height: 600px;
+}
+.topp3 img{
+    width: 300px;
+    height: 300px;
+}
+.topp3 h2{
+    font-size: 20px;
+    margin-right: 40px;
+    color: black;
+}
+.topp3 h1{
+    color: black;
+    text-align: end;
+    font-size: x-large;
+    padding: 0 30px;
+}
+.topp3 h3{
+    text-align: start;
+    color: black;
+    padding: 0 30px
+}
+.topp3 h3 span{
+    color: gray;
+}
+.far{
+   
+    width: 100%;
+    position: relative;
+
+}
+.far1{
+    background-image: url(/task-ev3/img1.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+ 
+    top: 0;
+    z-index: -2;
+}
+.far1::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    background-color: rgb(77, 72, 72);
+    opacity: 40%;
+}
+.far1 h1{
+    
+   text-align: center;
+   color:  white;
+}
+.lar{
+    width: 100%;
+}
+.lar h3{
+    margin-top: 40px;
+    text-align: center;
+    color: gray;
+    font-size: 30px;
+}
+.lar h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.lar h4{
+    text-align: center;
+    color: gray;
+    margin-top: 30px;
+}
+
+.lar1{
+    margin-top: 40px;
+    padding: 0 90px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.lar2{
+    width: 350px;
+    height: 400px;
+    background-color: white;
+    
+}
+.lar3{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  
+}
+.lar3 img{
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: 20px;
+    
+}
+.lar4 h3{
+    color: black;
+    text-align: start;
+}
+
+
+.lar4{
+    width: 150px;
+}
+.lar4 h4{
+    color: black;
+    
+}
+.lar2 h3{
+    
+    color: rgb(70, 65, 65);
+}
+.rep{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+.rep h3{
+    color: white;
+}
+.rep a{
+ color: white;
+}

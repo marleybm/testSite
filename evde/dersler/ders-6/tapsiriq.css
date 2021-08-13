@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .box{
+     width: 100%;
+     height: 300px;
+     border: 5px solid black;
+     background-image: url(/ders-6/indir.jpg);
+     background-repeat: no-repeat;
+     background-size: 100%;
+     background-position: center;
+     padding: 300px;
+     
+ }
+ .Parol{
+	
+	width: 600px;
+	padding: 5%;	
+	border: solid 1px #123;
+	border-radius: 5px;
+	background-color: #fff8f8ec;
+    margin: 500px 20px 100px 20px;
+    margin: 10px;
+ }
+ .text-inp{
+    border-right: none;
+    padding: 10px;
+   
+ }
+ .text-inp1{
+    border-right: none;
+    padding: 10px;
+ }
+ .text-inp2{
+    border-right: none;
+    padding: 10px;
+ }
+ .text-inp3{
+    border-right: none;
+    padding: 10px;
+ }
+ 
+
+.box2{
+    width: 100%;
+    height: 600px;
+    background-image: url('indir.jpg');
+    background-repeat: no-repeat;  
+    background-position: center;
+    border: 5px solid black;
+    border-radius: 50%;
+    background-size: 100%;
+}

@@ -1,0 +1,58 @@
+.box{
+    background-image: url(/ders-12/0388b20c-c02c-487e-97bb-e4cd3024f79a.jpg);
+    width: 100%;
+    height: 300px;
+
+}
+
+.box1 img{
+    width: 80px;
+    height: 100px;
+    animation-name: qutu;
+    animation-duration:6s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+@keyframes qutu{
+10%{
+    top: 0px;
+    left: 1250px;
+    }
+}
+.box2 img{
+    width: 80px;
+    height: 100px;
+    margin-top: 110px;
+    animation-name: qutu1;
+    animation-duration:6s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+@keyframes qutu1{
+40%{
+    top: 0px;
+    left: 1250px;
+    }
+}
+
+.box3 img{
+    width: 80px;
+    height: 100px;
+    margin-top: 200px;
+    animation-name: qutu2;
+    animation-duration:6s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+@keyframes qutu2{
+20%{
+    top: 0px;
+    left: 1250px;
+    }
+}

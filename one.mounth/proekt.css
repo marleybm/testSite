@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+ }
+.header{
+    width: 100%;
+    background-image: url(/one.mounth/1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.header1{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.header1 img{
+    width: 60px;
+    height: 30px;
+}
+
+.header1 ul{
+    display: flex;
+    list-style-type: none;
+   
+
+}
+.header1 ul a{
+    color: white;
+    padding: 20px;
+}
+
+.dowloand{
+    width: 200px;
+    height: 40px;
+    background-color: #8167e6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 20px;
+    padding: 0 23px;
+    fill: white;
+    color: white;
+}
+.dowloand svg{
+    width: 20px;
+    height: 20px;
+    
+}
+
+.dowloand a{
+   
+    font-size: 14px;
+    color: white;
+}
+.dowloand a:hover{
+    color: #8167e6;
+}
+
+.dowloand:hover{
+    fill: #8167e6;
+    color: #8167e6;
+    box-shadow: 2px 2px 20px 0px rgb(20 20 20 / 30%);
+}
+
+
+
+
+.boxes{
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box1{
+    width: 600px;
+    height: 350px;
+}
+
+.box1 h1{
+    font-size: 50px;
+    color: white;
+    padding: 0 30px;
+}
+.box1 h3{
+    color: rgba(255, 255, 255, 0.849);
+    padding: 0 40px;
+    margin-top: 20px;
+   
+}
+.boxes1{
+    width: 70%;
+    height: 70px;
+    margin-top: 20px;
+    display: flex;
+   margin-left: 40px;
+   justify-content: space-between;
+  
+}
+
+.box2{
+    
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #8167e6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2 a{
+    color: white;
+}
+.box2 a:hover{
+    color: #8167e6;
+}
+.box2:hover{
+    box-shadow: 2px 2px 20px 0px rgb(20 20 20 / 30%);
+}
+
+
+.box3{
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box3 a{
+    color: white;
+}
+
+.box3:hover{
+    box-shadow: 2px 2px 20px 0px rgb(20 20 20 / 30%);
+    background-color: #8167e6;
+}
+.boxes img{
+    width: 500px;
+    height: 600px;
+}
+.box4{
+    width: 60px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box5{
+    width: 50px;
+    height: 50px;
+    background-color: #8167e6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.box5 a{
+    color: white;
+    text-align: center;
+}
+
+.box6{
+    width: 50px;
+    height: 50px;
+    background-color: #8167e6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.box6 svg{
+    width: 20px;
+    height: 20px;
+    fill: white;
+}
+
+
+
+.rapes{
+    width: 100%;
+    background-color: rgb(240, 244, 253);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.qutu1{
+    width: 130px;
+    height: 30px;
+    border-radius: 9px;
+    margin-top: 60px;
+    background-color: #dad7f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qutu1 span{
+    color: #8167e6;
+}
+.rapes h1{
+    font-size: 40px;
+    margin-top: 30px;
+   color: #071c39;
+   text-align: center;
+  
+}
+
+.qutu2{
+    margin-top: 20px;
+    width: 150px;
+    height: 3px;
+    background-color: #8167e6;
+}
+
+.qutu3{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   flex-wrap: wrap;
+   padding: 0 30px;
+}
+
+.qutu4{
+    width: 400px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+.qutu5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #8167e6;
+}
+.qutu5 svg{
+   fill: white;
+   width: 40px;
+   height: 40x;
+}
+
+.qutu6{
+    width: 250px;
+    height: 100px;
+}
+.qutu6 h2{
+   color: #071c39;
+}
+.qutu6 h4{
+    color: rgba(0, 0, 0, 0.637);
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #f7f1f1d8;
+
+}
+
+.top img{
+    width: 550px;
+    height: 600px;
+    margin-top: 60px;
+}
+
+.top1{
+    width: 500px;
+    height: 600px;
+}
+.top2{
+    width: 90px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: #d2d0e7;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top2 h4{
+    color: #8167e6;
+}
+
+.top h1{
+    color: #071c39;
+    margin-top: 20px;
+    font-size: 45px;
+    
+}
+.top3{
+    width: 80px;
+    height: 45px;
+    background-color: #8167e6;
+    border-radius: 2px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.top3 h2{
+    color: white;
+}
+.top33{
+    width: 100%;
+    display: flex;
+}
+
+.top33 ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+}
+.top33 li a{
+    padding: 20px;
+    color: #8167e6;
+    font-size: 20px;
+}
+
+.top1  strong{
+    color: rgba(0, 0, 0, 0.637);
+    padding-top: 10px;
+    font-size: 23px;
+}
+.top5{
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #8167e6;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    
+}
+.top5 a{
+   color: white;
+}
+.top5:hover{
+    box-shadow: 2px 2px 20px 0px rgb(20 20 20 / 30%);
+}
+.toppp{
+    margin-top: 35px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top6{
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;
+    border: 2px solid #8167e6;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+    
+}
+.top6 a{
+    color: #8167e6;
+}
+.top6 a:hover{
+    color: white;
+}
+.top6:hover{
+    background-color: #8167e6;
+  
+}

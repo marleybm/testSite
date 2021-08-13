@@ -1,0 +1,16 @@
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    /* color: white; */
+    /* overflow-x: hidden; */
+    /* transform: rotatex(20deg); */
+    transform: rotatey(0deg);
+    transition: 0.4s;
+}
+.box:hover{
+    /* transform: rotatex(360deg); */
+    transform: rotatey(180deg);
+}

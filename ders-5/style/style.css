@@ -1,0 +1,16 @@
+
+.course-name{
+    color: red;
+}
+.country{
+    color: green;
+    background-color: brown;
+}
+#Header{
+    color: aqua;
+}
+.box{
+    width: 100%;
+    height: 200px;
+    text-align: right;
+}

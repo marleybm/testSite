@@ -1,0 +1,28 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transition: 1s;
+    background-image: url(/task-ev2/front-page-project-1.jpg);
+    background-size: cover;
+    position: absolute;
+    left: 0;
+}
+/*.box::before{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: block;
+}
+.box::after{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    display: block;
+}
+*/
+.box:hover{
+    left: 50px;
+    background-image: url(/task-ev2/front-page-project-3.jpg);
+    
+}

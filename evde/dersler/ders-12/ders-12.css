@@ -1,0 +1,33 @@
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    animation-name: qutu;
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+
+    /* animation-delay: 3s; */
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    transform: rotate(0deg);
+   
+}
+
+@keyframes qutu {
+0%{
+    background-color: red;
+    top: 0px;
+    left: 0px;
+}
+20%{
+    background-color:yellow;
+    top: 10px;
+    left: 150px;
+}
+40%{
+    background-color:gray;
+    top: 0px;
+    left: 100px;
+}
+}

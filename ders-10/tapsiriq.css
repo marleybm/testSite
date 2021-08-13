@@ -1,0 +1,135 @@
+.bigbox{
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    position: relative;   
+    background-color: red;
+    overflow: hidden;
+}
+
+.box::before{
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    transition: 2s;
+    left: -250px;
+    background-color: green;
+    display: block;
+}
+.box:hover::before{
+    left: 0px;
+}
+.tab{
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    background-color: gray;
+}
+.tab::before{
+  content: "";
+  position: absolute;
+  transition: 2s;
+  width: 250px;
+  height: 250px;
+  left: -250px;
+  background-image: url(/proekt-1/bmw1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.tab::after{
+    content: "";
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    transition: 4s;
+    left: -250px;
+    background-image: url(/proekt-1/bmw2.jpg);
+
+}
+.tab:hover::before{
+   left: 0;
+}
+.tab:hover::after{
+    left: 0;
+}
+.rap{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rap1{
+    width: 250px;
+    height: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.rap1::before{
+   content: "";
+   border: 1px solid black;
+   width: 0px;
+   height: 0px;
+   right: 0;
+   transition: 0.7s;
+   border-left: none;
+   border-bottom: none;
+   position: absolute;
+}
+.rap1::after{
+    content: "";
+    border: 1px solid black;
+    width: 0px;
+    height: 0px;
+    transition: 0.7s;
+    left: 0;
+    border-right: none;
+    border-top: none;
+    position: absolute;
+}
+.rap1:hover::before{
+    width: 250px;
+    height: 50px;
+     
+}
+.rap1:hover::after{
+    width: 250px;
+    height: 50px;
+     
+}
+.raap{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.rap2{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+.rap2 svg{
+    width: 200px;
+    height: 200px;
+    fill: thistle;
+}
+.rap2 svg:hover{
+    fill: teal;
+}
